@@ -1,5 +1,8 @@
-let str = "Badsha Hossain";
-
-for (let i of str) {
-    console.log("i=", i);
+let student = {
+    name: "Badsha Hossain",
+    Age: 2,
+    cgpa: 3.2
+}
+for (let i in student) {
+    console.log(i);
 }
