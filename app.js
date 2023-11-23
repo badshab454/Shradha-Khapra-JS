@@ -1,8 +1,5 @@
-let student = {
-    name: "Badsha Hossain",
-    Age: 2,
-    cgpa: 3.2
-}
-for (let key in student) {
-    console.log(student[key]);
+for ( i =0; i <= 100; i++){
+    if (i % 2 == 0) {
+        document.write(i+" ")
+    }
 }
