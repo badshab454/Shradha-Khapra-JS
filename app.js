@@ -1,5 +1,8 @@
-for ( i =0; i <= 100; i++){
-    if (i % 2 !== 0) {
-        document.write(i+" ")
-    }
+var obj = {
+    item: "pen",
+    price: 10
 }
+
+var obj1 = `${obj.item} price is ${obj.price} taka`;
+
+console.log(obj1);
