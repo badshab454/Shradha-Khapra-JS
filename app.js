@@ -1,1 +1,3 @@
-console.log("my\ncollege\nfuck");
+var str = "   my college";
+
+console.log(str.trim());
