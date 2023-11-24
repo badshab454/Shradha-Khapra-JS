@@ -1,3 +1,3 @@
 var str = "my college";
 
-console.log(str.charAt(3));
+console.log(str.indexOf("c"));
