@@ -1,3 +1,3 @@
-var str = "   my college";
+var str = "my college";
 
-console.log(str.trim());
+console.log(str.charAt(3));
