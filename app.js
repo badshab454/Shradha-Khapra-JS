@@ -1,3 +1,3 @@
-var str = "my college";
+let str = "abcdefg";
 
-console.log(str.indexOf("c"));
+console.log(str.slice(2));
