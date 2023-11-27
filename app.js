@@ -1,3 +1,5 @@
-let str = "hello";
+let arr = [1, 2, 3, 4, 5];
 
-console.log(str.replace("h", "m"));
+let arr1 = arr.unshift(6);
+
+console.log(arr.toString());
