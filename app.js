@@ -1,8 +1,8 @@
-let marks = [87, 93, 64, 99, 86];
+let arr = [1, 2, 3, 4];
 
-let plusMarks = marks.filter((val) => {
-    return val >= 90;
+let newArr = arr.reduce((prev, curr) => {
+    return prev + curr;
 })
 
-console.log(plusMarks);
+console.log(newArr);
 
