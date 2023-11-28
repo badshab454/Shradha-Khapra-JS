@@ -1,7 +1,5 @@
-let arr = [1, 2, 3, 4, 5];
+let arr = ["dhaka", "khulna", "barishal"]
 
-let arr1 = [6, 7, 8, 9, 10];
-
-let arr2 = arr.concat(arr1);
-
-console.log(arr2);
+arr.forEach(function printVal(val){
+    console.log(val.toUpperCase());
+})
