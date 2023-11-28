@@ -1,5 +1,7 @@
-let arr = ["dhaka", "khulna", "barishal"]
+let arr = [1, 2, 3, 4, 5];
 
-arr.map((val,idx) =>{
-    console.log(val,idx);
-})
+let oddArr = arr.filter((val) => {
+  return val % 2 !== 0;
+});
+
+console.log(oddArr);
