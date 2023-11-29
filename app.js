@@ -1,8 +1,15 @@
-let arr = [1, 2, 3, 4];
+let n = prompt("enter a number : ");
 
-let newArr = arr.reduce((prev, curr) => {
-    return prev + curr;
-})
+let arr = [];
 
-console.log(newArr);
+for (let i = 1; i <= n; i++) {
+  arr[i - 1] = i;
+}
 
+console.log(arr);
+
+let sumArr = arr.reduce((prev, curr) => {
+  return prev + curr;
+});
+
+console.log(sumArr);
