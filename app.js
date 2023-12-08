@@ -1,15 +1,8 @@
-let n = prompt("enter a number : ");
-
-let arr = [];
-
-for (let i = 1; i <= n; i++) {
-  arr[i - 1] = i;
+function solution(a){
+    const people = a.filter(element => element!== -1);
+    return people;
 }
 
-console.log(arr);
 
-let sumArr = arr.reduce((prev, curr) => {
-  return prev + curr;
-});
-
-console.log(sumArr);
+const result = solution([-1, 150, 190, 170, -1, -1, 160, 180]);
+console.log(result); 
