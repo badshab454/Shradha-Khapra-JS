@@ -1,8 +1,3 @@
-function solution(a){
-    const people = a.filter(element => element!== -1);
-    return people;
+function firstLast(name) {
+	return name[0] + name[name.length-1]
 }
-
-
-const result = solution([-1, 150, 190, 170, -1, -1, 160, 180]);
-console.log(result); 
