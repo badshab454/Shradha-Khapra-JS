@@ -1,3 +1,7 @@
-const [first, second, third,fourth, ...other] = [1,2,3,4,5,6,7,8]
+function find_median(arr){
+    arr.sort((a, b) => a - b)
+    return arr;
+}
 
-console.log(fourth);
+const arr = [80, 75, 60, 25]
+console.log(find_median(arr));
