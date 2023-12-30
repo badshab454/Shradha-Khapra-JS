@@ -1,7 +1,15 @@
-function find_median(arr){
-    arr.sort((a, b) => a - b)
-    return arr;
+function longest(names, n) {
+    let longestIndex = 0;
+
+    for (let i = 1; i < n; i++) {
+        if (names[i].length > names[longestIndex].length) {
+            longestIndex = i;
+        }
+    }
+
+    return names[longestIndex];
 }
 
-const arr = [80, 75, 60, 25]
-console.log(find_median(arr));
+const namesList = ["Geek", "Geeks", "Geeksfor", "GeeksforGeek", "GeeksforGeeks"];
+const result = longest(namesList,5)
+console.log(result);
