@@ -1,5 +1,5 @@
 var name = "Bodsha";
 
-var fixName = name.replace(/o/g, 'a')
+var fixName = name.replace('o', 'a')
 
 console.log(fixName);
