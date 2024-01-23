@@ -1,5 +1,5 @@
-let arr = [1, 2, 3, 4, 5, 6, 7];
-let d = 2;
-let rotateArr = arr.slice(d)
+var name = "Bodsha";
 
-console.log(rotateArr);
+var fixName = name.replace(/o/g, 'a')
+
+console.log(fixName);
